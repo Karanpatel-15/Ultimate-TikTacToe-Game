@@ -15,13 +15,13 @@
 .       .                                  .       .
 .  __\o .           Jan, 6 2020            .  __\o .
 . /) |  .                                  . /) |  .
-.       .       	 Summative    	   	   .       .
-. __|   .         	                       . __|   .
+.       .       	 Summative    	   .       .
+. __|   .         	                   . __|   .
 .   \o  .           Tic Tac Toe            .    \o .
 .   ( \ .                                  .   ( \ .
 .       .           Dev c++ 5.11           .       .
 .  \ /  .                                  .  \ /  .
-.   |   .                     		       .   |   .
+.   |   .                     		   .   |   .
 .  /o\  .                                  .  /o\  .
 .       .                                  .       .
 .       ....................................       .
@@ -187,7 +187,7 @@ void rules(int ruleNumber) {
         cout << "\t.  .  .       7  8  9" << endl;
     } else if (ruleNumber == 2) {
         cout << "\nUltimate Tic Tac Toe Rules" << endl << endl;
-        cout << "   1. Set up the tic-tac-toe board if one’s not available by drawing a large tic-tac-toe board and then drawing a smaller board in each square. " << endl;
+        cout << "   1. Set up the tic-tac-toe board if oneÂ’s not available by drawing a large tic-tac-toe board and then drawing a smaller board in each square. " << endl;
         cout << "   2. Each turn, mark one of the small boards. " << endl;
         cout << "   3. When you win three in a row, you\'ve won that board. " << endl;
         cout << "   4. *The board you play on is determined by your opponents previous move. Whatever square was picked will determine the board you play on. For example, if your opponent placed an X on the middle square, you may place an O anywhere on the middle board.*" << endl;
